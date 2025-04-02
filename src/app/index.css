@@ -55,3 +55,18 @@ h4{
 .button-container:nth-of-type(2):hover{
     background-color: #282727;
 }
+
+@media (max-width: 1024px) {
+    .container{
+        gap: 25px;
+        padding: 5%;
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+    
+    h4{
+        font-size: 1.2rem;
+    }
+}
