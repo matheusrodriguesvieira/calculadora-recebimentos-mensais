@@ -7,11 +7,11 @@ import Link from "next/link";
 
 export default function Calculator() {
   const [salarioBruto, setSalarioBruto] = useState("");
-  const [decimoSalarioBruto, setDecimoSalarioBruto] = useState(false);
+  const [decimoSalarioBruto, setDecimoSalarioBruto] = useState(true);
   const [multiplicadorPLR, setMultiplicadorPLR] = useState("");
   const [porcentagemPrevidencia, setPorcentagemPrevidencia] = useState("");
   const [cartaoAlimentacao, setCartaoAlimentacao] = useState("");
-  const [decimoCartaoAlimentacao, setDecimoCartaoAlimentacao] = useState(false);
+  const [decimoCartaoAlimentacao, setDecimoCartaoAlimentacao] = useState(true);
   const [resultados, setResultados] = useState(null);
 
   function handleSubmit(e) {
