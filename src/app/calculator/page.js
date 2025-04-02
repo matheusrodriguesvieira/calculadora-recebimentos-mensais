@@ -180,8 +180,9 @@ export default function Calculator() {
                   id="multiplicador"
                   name="multiplicador"
                   value={multiplicadorPLR}
-                  min={0.0}
+                  min={0.00}
                   max={5.00}
+                  step={0.01}
                   onChange={(e) => setMultiplicadorPLR(e.target.value)}
                   required
                   placeholder="Mínimo 0 e Máximo 5"
