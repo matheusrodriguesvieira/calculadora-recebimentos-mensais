@@ -167,7 +167,7 @@ export default function Calculator() {
           </fieldset>
 
           <fieldset>
-            <legend>Participação nos lucros e resultados</legend>
+            <legend>Participação nos lucros e Resultados</legend>
             <div className="form-group">
               {/* <div className="input-group">
                 <label htmlFor="plr">Salario Base</label>
@@ -180,8 +180,8 @@ export default function Calculator() {
                   id="multiplicador"
                   name="multiplicador"
                   value={multiplicadorPLR}
-                  min={0}
-                  max={5}
+                  min={0.0}
+                  max={5.00}
                   onChange={(e) => setMultiplicadorPLR(e.target.value)}
                   required
                   placeholder="Mínimo 0 e Máximo 5"
