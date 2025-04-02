@@ -160,13 +160,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    color: #272727;
     gap: 50px;
     /* background-color: red; */
 
     h1 {
         font-size: 40px;
         font-weight: bold;
+        color: #272727;
+
     }
 
     .session-container {
